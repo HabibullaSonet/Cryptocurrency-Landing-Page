@@ -93,3 +93,21 @@ html, body{
     margin-top: -20px;
     padding-left: 50px;
 }
+
+.more-info-btn{
+    display: inline-flex;
+    padding: 8px 25px;
+    border-radius: 30px;
+    border: 2px solid white;
+    margin-left: 40px;
+}
+.more-info-btn-text{
+    font-size: 18px;
+}
+
+.more-info-btn:hover{
+    background-color: #fff;
+    font-size: 16px;
+    color: #42455a;
+    transition: .3s;
+}
