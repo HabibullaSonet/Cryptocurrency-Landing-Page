@@ -111,3 +111,32 @@ html, body{
     color: #42455a;
     transition: .3s;
 }
+
+.quick-links{
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(to right, #db1bf6, #19d7f8);
+}
+.quick-links ul{
+    display: inline-flex;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.quick-links ul li{
+    list-style: none;
+    margin: 0 50px;
+    cursor: pointer;
+}
+
+.quick-links ul li p {
+    font-size: 12px;
+    margin-top: 15px;
+    color: #fff;
+    
+}
+.icon img{
+    height: 25px;
+    
+}
